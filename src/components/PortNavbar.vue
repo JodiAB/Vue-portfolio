@@ -9,11 +9,16 @@
           <li><router-link to="/">Home</router-link></li>
           <li><router-link to="/PortAbout">About</router-link></li>
           <li><router-link to="/PortProjects">Projects</router-link></li>
+          <li><router-link to="/PortServices">Services</router-link></li>
           <li><router-link to="/PortContact">Contact</router-link></li>
       </ul>
       </div>
-     
     </nav>
+
+
+    <div class="cards">
+
+    </div>
   </template>
   
   <script>
@@ -24,9 +29,11 @@
   
   <style scoped>
   /* Add your styles here */
+
   nav {
-    background-color: #eee8e8;
+    background-color: #343333;
     padding: 15px;
+    border: 3px solid rgb(50, 4, 50)
   }
   .logo img {
     margin-top: 10px;
@@ -50,8 +57,12 @@
   }
   
   a {
-    color: white;
+    color: rgb(86, 87, 138);
     text-decoration: none;
+  }
+
+  .cards{
+
   }
   </style>
   
